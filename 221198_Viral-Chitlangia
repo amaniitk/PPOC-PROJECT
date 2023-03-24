@@ -1,0 +1,16 @@
+# Q6
+def roll_name():
+    roll = input("Roll Number : ")
+    name = input("Name : ")
+    print(roll + " " + name)
+
+# Q7
+roll_name()
+
+# Q8
+def sum_n_int(n):
+    sum = 0
+    for i in range(0, n):
+        sum += i + 1
+    return sum
+print(sum_n_int(10))
