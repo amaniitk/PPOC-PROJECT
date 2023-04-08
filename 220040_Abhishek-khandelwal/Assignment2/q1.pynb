@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+
+features = ['A', 'B', 'C']
+values = [2, 3, 4]
+colors = ['red', 'blue', 'green']
+
+
+plt.bar(features, values, color=colors)
+
+
+plt.xlabel('Features')
+plt.ylabel('Values')
+plt.title('Bar Graph of Features A, B, and C')
+
+
+plt.show()
